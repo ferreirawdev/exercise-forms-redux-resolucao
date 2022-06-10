@@ -23,7 +23,6 @@ const formsReducer = (state = INITIAL_STATE, action) => {
     return {
       ...state,
       information: { ...state.information, ...action.info },
-      outraCoisa: {},
     };
   default:
     return state;
